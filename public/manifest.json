@@ -1,0 +1,45 @@
+{
+  "name": "Proxy Browser Extension",
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "storage",
+    "tabs",
+    "contextMenus"
+  ],
+  "version": "1.1.2",
+  "manifest_version": 3,
+  "icons": {
+    "16": "logo16.png",
+    "32": "logo32.png",
+    "512": "logo512.png"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "logo32.png"
+  },
+  "background": {
+    "service_worker": "service-worker.js"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://*/*",
+        "http://*/*"
+      ],      
+      "js": [
+        "content.js"
+      ]
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": [
+      ],
+      "matches": [
+        "https://*/*",
+        "http://*/*"
+      ]
+    }
+  ]
+}
