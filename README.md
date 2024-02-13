@@ -1,46 +1,27 @@
-# Getting Started with Create React App
+# Proxy Browser Extension
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## General Information
 
-## Available Scripts
+Proxy Browser Extension is a Chrome extension designed to enable proxy usage during browsing sessions. This extension allows users to browse the web with enhanced privacy and security by routing their internet traffic through a proxy server.
 
-In the project directory, you can run:
+## Installation Instructions
 
-### `npm start`
+To install Proxy Browser Extension, follow these steps:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+1. Download the latest version of the extension from the [release archive](https://example.com/proxy-browser-extension-latest.zip).
+2. Unzip the downloaded file to your local machine.
+3. Open Google Chrome and navigate to `chrome://extensions/`.
+4. Enable "Developer mode" in the top right corner of the page.
+5. Click on the "Load unpacked" button and select the unzipped extension folder.
+6. The Proxy Browser Extension should now be installed and visible in your browser's toolbar.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
-### `npm test`
+## Contributing
+We welcome contributions to this project, whether in the form of issue reports, suggestions, or pull requests. Please read our [Contribution Guidelines](CONTRIBUTING.md) for more information.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE.md) file for details.
 
-### `npm run build`
+## About DataToGo
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Proxy Browser Extension is developed and maintained by DataToGo, a software development company specializing in data engineering projects. For more information about our products and services, visit [https://datatogo.gg](https://datatogo.gg).
